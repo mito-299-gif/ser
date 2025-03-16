@@ -5,7 +5,7 @@ document.getElementById("userForm").addEventListener("submit", function (event) 
     let name_2 = document.getElementById("name_2").value;
     let phop = document.getElementById("phop").value;
 
-    fetch("https://67be-202-144-186-166.ngrok-free.app/api/add_user", {  // ໃຊ້ URL ຂອງ Flask API
+    fetch("http://127.0.0.1:5000/api/add_user", {  // ໃຊ້ URL ຂອງ Flask API
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
