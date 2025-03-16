@@ -1,5 +1,5 @@
 document.getElementById("userForm").addEventListener("submit", function (event) {
-    event.preventDefault();  // ປ້ອງກັນການເຮັດ Refresh
+
 
     let name = document.getElementById("name").value;
     let name_2 = document.getElementById("name_2").value;
